@@ -1,0 +1,32 @@
+{
+    "actions": [
+        {
+            "id": "SHOWTASKPANE",
+            "type": "ExecuteFunction",
+            "name": "Open"
+        },
+        {
+            "id": "HIDETASKPANE",
+            "type": "ExecuteFunction",
+            "name": "Close"
+        }
+    ],
+    "shortcuts": [
+        {
+            "action": "SHOWTASKPANE",
+            "key": {
+                "default": "Ctrl+Alt+1",
+                "mac": "Command+Shift+1",
+                "web": "Ctrl+Alt+1"
+            }
+        },
+        {
+            "action": "HIDETASKPANE",
+            "key": {
+                "default": "Ctrl+Alt+2",
+                "mac": "Command+Shift+2",
+                "web": "Ctrl+Alt+2"
+            }
+        }
+    ]
+}

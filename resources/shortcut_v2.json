@@ -1,0 +1,44 @@
+{
+    "actions": [
+        {
+            "id": "SHOWTASKPANE",
+            "type": "ExecuteFunction",
+            "name": "${resource.SHOWTASKPANE_action_name}"
+        },
+        {
+            "id": "HIDETASKPANE",
+            "type": "ExecuteFunction",
+            "name": "${resource.HIDETASKPANE_action_name}"
+        }
+    ],
+    "shortcuts": [
+        {
+            "action": "SHOWTASKPANE",
+            "key": {
+                "default": "${resource.SHOWTASKPANE_default_shortcut}"
+            }
+        },
+        {
+            "action": "HIDETASKPANE",
+            "key": {
+                "default": "${resource.HIDETASKPANE_default_shortcut}"
+            }
+        }
+    ],
+    "resources": { 
+        "default": { 
+            "SHOWTASKPANE_default_shortcut": { 
+                "value": "Ctrl+Alt+1"
+            }, 
+            "SHOWTASKPANE_action_name": {
+                "value": "Open"
+            },
+            "HIDETASKPANE_default_shortcut": { 
+                "value": "Ctrl+Alt+2"
+            },
+            "HIDETASKPANE_action_name": {
+                "value": "Close"
+            }
+        }
+    }
+}
