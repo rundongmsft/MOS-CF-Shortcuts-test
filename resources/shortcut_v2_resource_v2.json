@@ -1,0 +1,14 @@
+{ 
+    "SHOWTASKPANE_default_shortcut": { 
+        "value": "Ctrl+Alt+1"
+    }, 
+    "SHOWTASKPANE_action_name": {
+        "value": "Open taskpane"
+    },
+    "HIDETASKPANE_default_shortcut": { 
+        "value": "Ctrl+Alt+2"
+    },
+    "HIDETASKPANE_action_name": {
+        "value": "Close taskpane"
+    }
+}

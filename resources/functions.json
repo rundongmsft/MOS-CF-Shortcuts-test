@@ -22,6 +22,26 @@
             }
         },
         {
+            "description": "Add two numbers",
+            "id": "TESTID",
+            "name": "TESTID",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
             "description": "Displays the current time once a second",
             "id": "CLOCK",
             "name": "CLOCK",
@@ -37,6 +57,24 @@
             "description": "Increments a value once a second.",
             "id": "INCREMENT",
             "name": "INCREMENT",
+            "options": {
+                "stream": true
+            },
+            "parameters": [
+                {
+                    "description": "Amount to increment",
+                    "name": "incrementBy",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Increments a value once a second.",
+            "id": "TEST_NAME",
+            "name": "TEST_NAME",
             "options": {
                 "stream": true
             },
